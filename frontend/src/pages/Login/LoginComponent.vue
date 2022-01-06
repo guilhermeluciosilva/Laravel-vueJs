@@ -1,15 +1,12 @@
  <template>
-
-    <div class="login"> 
-        <div class="info">
-            <h1 class="title-login">Título</h1>
-            <p>Login do nosso Sistema</p>
-        </div> 
-
-        <div class="footer">
-            <h1>Rodapé</h1>
+    <div class="main"> 
+        <div class="login">
+            <div class="content-login">
+                <header>
+                    <h1>Login do Sistema</h1>
+                </header>
+            </div>
         </div>
-
     </div> 
  </template>
 
@@ -19,5 +16,5 @@
  }
  </script>
 
- <style src="./style.css" scoped />
+ <style lang="scss" src="./style.scss" scoped />
  
