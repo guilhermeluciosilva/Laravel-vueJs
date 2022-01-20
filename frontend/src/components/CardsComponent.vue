@@ -22,7 +22,7 @@ export default {
          type: String,
          percentagem: String,
          icon: String,
-         qtd: String,
+         qtd: Number,
 
      }
 }
